@@ -1,19 +1,46 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>吉利科技</title>
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,shrink-to-fit=no,user-scalable=no,minimal-ui" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <title>微信全国打卡</title>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/wxding.css"/>
+	<script src="./js/bulebrid.js"></script>
 </head>
-<body>
-    <img class="example" src="./css/images/pg1.png" alt="">
-    <img class="example" src="./css/images/pg2.png" alt="">
-    <img class="example" src="./css/images/pg3.png" alt="">
-    <img class="example" src="./css/images/pg4.png" alt="">
-    <img class="example" src="./css/images/pg5.png" alt="">
+<body> 
+    <div  class="container">
+        <div class="top-item">
+            <div class="item" id="map1"></div>
+            <div class="item" id="map2"></div>
+        </div>
+        <div class="map-box" id="china_map"></div>
+        <div class="top-item">
+            <div class="item" id="map3"></div>
+            <div class="item" id="map4"></div>
+        </div>
+        <div class="bot-item" id="map5"></div>
+        <div class="bot-center">
+            <div class="yb" id="yb1"></div>
+            <div class="yb" id="yb2"></div>
+            <div class="yb" id="yb3"></div>
+        </div>
+        <div class="bot-item" id="map6"></div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/echarts.min.js"></script>
+    <script src="./js/china.js"></script>
+    <script src="./js/bundle.js"></script>
 </body>
 </html>
